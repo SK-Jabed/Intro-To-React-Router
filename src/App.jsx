@@ -1,6 +1,7 @@
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import DaisyNavbar from './components/DaisyNavbar/DaisyNavbar'
+import PriceOptions from './components/PriceOptions/PriceOptions'
+// import DaisyNavbar from './components/DaisyNavbar/DaisyNavbar'
 
 function App() {
 
@@ -9,9 +10,9 @@ function App() {
       
 
       <NavBar></NavBar>
-      <DaisyNavbar></DaisyNavbar>
+      {/* <DaisyNavbar></DaisyNavbar> */}
       <h1 className='text-xl rounded-full text-rose-500'>Vite + React</h1>
-      
+      <PriceOptions></PriceOptions>
     </>
   )
 }
